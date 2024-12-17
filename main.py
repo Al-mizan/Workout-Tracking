@@ -1,4 +1,6 @@
 ### Ensure the environment variable is set in the same terminal session where the Python script runs.
+### when the terminal is closed the environment variable will be vanished as it is temporary.
+
 import requests
 import datetime as dt
 import os
